@@ -8,5 +8,6 @@ def ruler(number_ruler):
     return number_ruler
 
 
-ruler_num = int(input('Input your ruler length >>'))
-ruler(ruler_num)
+if __name__ == '__main__':
+    ruler_num = int(input('Input your ruler length >>'))
+    ruler(ruler_num)
